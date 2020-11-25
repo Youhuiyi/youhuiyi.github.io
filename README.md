@@ -1,18 +1,20 @@
-<html>
-<head>
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> page</title>
     <style>
         body{font-family: "Fira Code";background-image:url(555.jpg);color: #666666;}
-        div.one{position: relative;right: 200px}
-        div.two{position: relative;right: 100px;bottom: 185px}
-        div.three{position: relative;left: 10px;bottom: 260px}
+        div.one{position: relative;right: 200px;bottom: 25px}
+        div.two{position: relative;right: 100px;bottom: 30px}
+        div.three{position: relative;left: 10px;bottom: 20px}
     </style>
 </head>
 
  <body>
     <h1 align="center">Huiyi's homepage </h1>
     <p align="center"> Hello!</p>
-    
+    <p align="center">Experiments:</p>
     <div class="one">
         <p align="center">
             <a href="sy1-1.html">sy1-1</a>
@@ -29,6 +31,7 @@
         <p align="center">
             <a href="sy1-5.html">sy1-5</a>
         </p>
+
     </div>
     <div class="two">
          <p align="center">
@@ -48,5 +51,3 @@
     </div>
  </body>
 </html>
-
-    
