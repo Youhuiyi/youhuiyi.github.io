@@ -1,8 +1,7 @@
 
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title> page</title>
+ 
     <style>
         body{font-family: "Fira Code";background-image:url(555.jpg);color: #666666;}
         div.one{position: relative;right: 200px}
