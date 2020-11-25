@@ -1,45 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>《静夜思》</title>
-    <style type="text/css">
-
-        body{
-            color:white;
-        }
-        h1{
-            text-align: center;
-        }
-        p{
-            text-align: center;
-        }
-        .hr4{
-            background-color: dimgray;
-        }
-        div{
-            margin: 40px auto;
-            width: 200px;
-            height: 300px;
-            background: mediumpurple;
-        }
-
+    <style>
+        body{font-family: "Fira Code";background-image:url(555.jpg);color: #666666;}
+        div.one{position: relative;right: 200px}
+        div.two{position: relative;right: 100px;bottom: 185px}
+        div.three{position: relative;left: 10px;bottom: 260px}
     </style>
 </head>
-
-<font color="#f0f8ff">
-<body>
-<div>
-<h1>《静夜思》</h1>
-<hr class="hr4">
-<p>李白</p>
-<hr/>
-<p>床前明月光，</p>
-<p>疑是地上霜。</p>
-<p>举头望明月，</p>
-<p>低头思故乡。</p>
-</div>
-</body>
-</font>
-</body>
+ <body>
+    <h1 align="center">Huiyi's homepage </h1>
+    <p align="center"> Hello!</p>
+    <p align="center">Experiments:</p>
+    <div class="one">
+        <p align="center">
+            <a herf="sy1-1.html">sy1-1</a>
+        </p>
+        <p align="center">
+            <a herf="sy1-2.html">sy1-2</a>
+        </p>
+        <p align="center">
+            <a herf="sy1-3.html">sy1-3</a>
+        </p>
+        <p align="center">
+            <a herf="sy1-4.html">sy1-4</a>
+        </p>
+        <p align="center">
+            <a herf="sy1-5.html">sy1-5</a>
+        </p>
+    </div>
+    <div class="two">
+         <p align="center">
+            <a herf="sy2-1.html">sy2-1</a>
+         </p>
+         <p align="center">
+            <a herf="sy2-2.html">sy2-2</a>
+         </p>
+    </div>
+    <div class="three">
+         <p align="center">
+            <a herf="sy3-1.html">sy3-1</a>
+         </p>
+         <p align="center">
+             <a herf="sy3-2.html">sy3-2</a>
+         </p>
+    </div>
+ </body>
 </html>
