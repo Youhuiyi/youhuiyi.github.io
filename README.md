@@ -3,9 +3,10 @@
 <html>
 <style>
     body{font-family:"MV Boli";background-image:url(paper.jpg);color:#393733}
-    div.one{position: relative;right:4cm}
-    div.two{position: relative;bottom:5cm}
-    div.three{position: relative;left:2cm;bottom:9cm}
+    div.one{position: relative;right:100px}
+    div.two{position: relative;right:200px;bottom:200px}
+    div.three{position: relative;left:200cm;bottom:300px}
+    div.four{position: relative;left:100cm;bottom:400px}
 </style>
 <body>
 <h1 align="center">You Huiyi's homepage</h1>
@@ -25,6 +26,10 @@
 <div class="three">
     <p align="center"><a href="sy3-1.html">sy3-1</a></p>
     <p align="center"><a href="sy3-2.html">sy3-2</a></p>
+</div>
+ <div class="Four">
+    <p align="center"><a href="sy4-1.html">sy4-1</a></p>
+    <p align="center"><a href="sy4-2.html">sy4-2</a></p>
 </div>
 </body>
 </html>
