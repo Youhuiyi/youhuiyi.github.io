@@ -1,5 +1,5 @@
 # youhuiyi.github.io
-<!DOCTYPE html>
+
 <html lang="zxx">
 
 <head>
