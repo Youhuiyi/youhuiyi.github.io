@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 20px;
+    font-family: 宋体;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+#box{
+    width: 1000Px;
+
+    margin: 0 auto;
+    color: black;
+    background: darkgrey;
+    border:2px solid black;
+}
+#header{
+    height:300px;
+    width:950px;
+    background: red;
+    margin-top: 60px;
+    border:2px solid yellow;
+    color: yellow;
+    margin-left: 25px;
+
+}
+#logo{
+    float:left;
+    width: 300px;
+    height: 80px;
+    margin-top:50px;
+    margin-left: 40px;
+    background: yellow;
+    border:2px solid black;
+    color: #666666;
+}
+#banner{
+    float:right;
+    width: 500px;
+    height: 80px;
+    margin-top:50px;
+    margin-right: 30px;
+    background: blue;
+    border:2px solid black;
+    color: white;
+}
+#menu{
+    float: bottom;
+    width: 880px;
+    height: 80px;
+    margin-top:160px;
+    margin-left: 40px;
+    background: darkslategrey;
+    border:2px solid black;
+    color: white;
+}
+
+
+
+#main {
+    height: 530px;
+    width: 950px;
+    background: green;
+    margin-top: 30px;
+    border: 2px solid yellow;
+    color: white;
+    margin-left: 25px;
+}
+#sidebar{
+    float:left;
+    width: 210px;
+    height: 430px;
+    margin-top:40px;
+    margin-left: 30px;
+    background: blue;
+    border:2px solid white;
+    color: white;
+
+}
+#content{
+    float:right;
+    width: 560px;
+    height: 430px;
+    margin-top:40px;
+    margin-right: 30px;
+    background: cyan;
+    border:2px solid white;
+    color: white;
+}
+#footer{
+    height:70px;
+    width: 950px;
+    background: #FF0000;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border:2px solid yellow;
+    color: white;
+    margin-left: 25px;
+}
