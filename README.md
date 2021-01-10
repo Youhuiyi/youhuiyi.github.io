@@ -1,6 +1,6 @@
 <html>
 <style>
-    body{font-family:"MV Boli";background-image:url(pp.jpg);color:#393733}
+    body{font-family:"MV Boli";background-image:url(pp.jpg);color:#e4606d}
    
 </style>
 <body>
