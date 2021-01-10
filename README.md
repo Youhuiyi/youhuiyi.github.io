@@ -5,7 +5,8 @@
 </style>
 <body>
 <h1 align="center">You Huiyi's homepage</h1>
-<p align="center">Hello! I'm You Huiyi. Welcome and glad to see you.</p>
+<p align="center">Hello! I'm You Huiyi.</p>
+    <p align="center">Welcome and glad to see you.</p>
 <p align="center">Experiments:</p>
 <div class="one">
     <p align="center"><a href="sy1-1.html">sy1-1</a></p>
