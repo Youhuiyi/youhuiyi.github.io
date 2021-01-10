@@ -3,9 +3,9 @@ my first HTML
 <html>
 <style>
     body{font-family:"MV Boli";background-image:url(paper.jpg);color:#393733}
-    div.one{position: relative;right:100px}
-    div.two{position: relative;bottom:208px}
-    div.three{position: relative;left:100px;bottom:291px}
+    div.one{position: relative;right:4cm}
+    div.two{position: relative;bottom:5cm}
+    div.three{position: relative;left:2cm;bottom:9cm}
 </style>
 <body>
 <h1 align="center">Amber's homepage</h1>
