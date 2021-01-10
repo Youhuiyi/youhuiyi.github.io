@@ -37,7 +37,7 @@
     <p align="center"><a href="sy7-7.html">sy7-7</a></p>    
 </div>indexl
 <div class="eight">
-    <p align="center"><a href="index.html">个人主页</a></p>
+    <p align="center"><a href="index.html">index</a></p>
 </div>
 </body>
 </html>
