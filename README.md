@@ -1,32 +1,496 @@
 # youhuiyi.github.io
+<!DOCTYPE html>
+<html lang="zxx">
 
-<html>
-<style>
-    body{font-family:"MV Boli";background-image:url(paper.jpg);color:#393733}
-    
-</style>
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	  <!-- grid hover -->
+    <link href="css/hover.css" type="text/css" rel="stylesheet" media="all">
+	<!-- Testimonials-Css -->
+	<link href="css/mislider.css" rel="stylesheet" type="text/css" />
+	<link href="css/mislider-custom.css" rel="stylesheet" type="text/css" />
+    <!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+	<!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,900,1000i" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+
 <body>
-<h1 align="center">You Huiyi's homepage</h1>
-<p align="center">Hello! I'm You Huiyi. Welcome and glad to see you.</p>
-<p align="center">Experiments:</p>
-<div class="one">
-    <p align="center"><a href="sy1-1.html">sy1-1</a></p>
-    <p align="center"><a href="sy1-2.html">sy1-2</a></p>
-    <p align="center"><a href="sy1-3.html">sy1-3</a></p>
-    <p align="center"><a href="sy1-4.html">sy1-4</a></p>
-    <p align="center"><a href="sy1-5.html">sy1-5</a></p>
+    <!-- banner -->
+    <div class="banner">
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary pt-3">
+                <h1>
+                    <a class="navbar-brand text-white" href="index.html" >
+                      古筝 Chinese Zither
+                    </a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto text-center">
+                        <li class="nav-item active  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+						<li class="nav-item  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="services.html">Detail</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+
+                        </li>
+                        <li class="nav-item mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="contact.html">Content</a>
+                        </li>
+                    </ul>
+                </div>
+			</nav>
+        </header>
+        <!-- //header -->
+		<audio src="gaoshanliushui.mp3"  preload="auto" autoplay="autoplay" loop="loop" >
+	  </audio>
+
+        <div class="container">
+            <!-- banner-text -->
+            <div class="banner-text">
+                <div class="slider-info">
+                  <h3 class="text-capitalize">我的挚友</h3>
+					<h3 class="text-capitalize">    一人 一筝 一世界</h3>
+                </div>
+            </div>
+			<div class="banner-top pb-5"> </div>
+        </div>
+    </div>
+	 <!-- //banner-text -->
+	<section class="about-w3ls py-5">
+		<div class="container pt-xl-5 pb-lg-3">
+			<div class="row">
+				<div class="col-lg-7">
+					<img src="images1/p2.jpg" alt="" class="img-section4 img-fluid">
+				</div>
+				<div class="col-lg-5 section-4">
+					<div class="agil_mor">
+						<h2 class="heading-agileinfo">关于<span> 古筝介绍</span></h2>
+						<hr>
+					  <a class="vam">古筝又名汉筝、秦筝、瑶筝、鸾筝，中华民族传统乐器，属于弹拨乐器。<hr>源起：最早出现在战国时代的秦国筝，是因其声响效果而得此名。<hr>流变：最早为五弦，到清代增为十六弦。现最常用的规格为二十一弦。</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-w3ls py-5">
+		<div class="container pt-xl-5 pb-lg-3">
+			<div class="row">
+				<div class="col-lg-5 section-5">
+					<div class="agil_mor">
+						<h3 class="heading-agileinfo"><span> 古筝十大名曲</span></h3>
+	 <p class="text-center"> <p>第一首《渔舟唱晚》是传统古筝独奏名曲。
+						<p> 第二首《出水莲》为广东潮州客家筝曲。
+						<p> 第三首《高山流水》为我国十大古曲之一，浙江筝派的代表作。
+						<p> 第四首《林冲夜奔》王巽之作曲，乐曲描绘了林冲雪夜上梁山的情景。
+						<p> 第五首《侗族舞曲》表现了侗寨风情，抒发了侗家儿女热爱美好生活的欢乐情绪。
+						<p> 第六首《汉宫秋月》细致地刻画了宫女面对秋夜明月。
+						<p> 第七首《寒鸦戏水》是“客家筝曲”中名作。
+						<p> 第八首《东海渔歌》是张燕创作于七十年代的作品。
+						<p> 第九首《香山射鼓》运用了唐代的音乐曲调，充分体现秦地音乐特色
+						<p> 第十首《战台风》王昌元有感于上海码头工人与台风顽强搏斗的精神而创作的。
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<video src="wangzhongshan.mp4" width="500" height="400" controls>
+                    </video>    
+				</div>
+
+			</div>
+		</div>
+	</section>
+ <!-- stats -->
+    <section class="agile_stats py-sm-5">
+        <div class="container">
+            <div class="py-lg-5 w3-abbottom">
+                <div class="row py-5">
+                    <div class="counter col-lg-3 col-6">
+                        <i>距今历史</i>
+                        <div class="timer count-title count-number mt-2 text-white" data-to="2500" data-speed="550"></div>
+                        <p class="count-text text-capitalize text-white">History</p>
+                    </div>
+
+                    <div class="counter col-lg-3 col-6">
+                        <i>琴弦数</i>
+                        <div class="timer count-title count-number mt-2 text-white" data-to="21" data-speed="1"></div>
+                        <p class="count-text text-capitalize text-white">NUMBER OF STRINGS</p>
+                    </div>
+                    <div class="counter col-lg-3 col-6 mt-lg-0 mt-4">
+                        <i>标准筝长</i>
+                        <div class="timer count-title count-number mt-2 text-white" data-to="163" data-speed="3"></div>
+                        <p class="count-text text-capitalize text-white">STANDARD LENGTH</p>
+                    </div>
+					<div class="counter col-lg-3 col-6 mt-lg-0 mt-4">
+						<i>流派</i>
+						<div class="timer count-title count-number mt-2 text-white" data-to="9" data-speed="1"></div>
+						<p class="count-text text-capitalize text-white">GENRE</p>
+					</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //stats -->
+    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	 <!-- services -->
+    <div class="more-services py-lg-5">
+		<div class="container py-5">
+            <div class="title-section pb-sm-5 pb-3">
+               <h3 class="heading-agileinfo text-center pb-4"><span> 古筝流派 </span></h3>
+            </div>
+            <div class="row grid">
+                <div class="col-lg-3 col-6">
+                    <figure class="effect-layla">
+                        <img src="images1/t1.png" width="300" height="400" alt="img" class="img-fluid" />
+                        <figcaption>
+                            <h4>陕西筝派</h4>
+                            <p>周延甲</p>
+							
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <figure class="effect-layla">
+                        <img src="images1/t2.png" width="300" height="400" alt="img" class="img-fluid" />
+                        <figcaption>
+                            <h4>山东筝派</h4>
+                            <p>高自成</p>
+							
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                    <figure class="effect-layla">
+                        <img src="images1/t3.png" width="300" height="400" alt="img" class="img-fluid" />
+                        <figcaption>
+                            <h4>河南筝派</h4>
+                            <p>曹东扶</p>
+							
+                        </figcaption>
+                    </figure>
+                </div>
+				<div class="col-lg-3 col-6">
+					<figure class="effect-layla">
+						<img src="images1/t4.jpg" width="300" height="400" alt="img" class="img-fluid" />
+						<figcaption>
+							<h4>潮州筝派</h4>
+							<p>林毛根</p>
+
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-6">
+					<figure class="effect-layla">
+						<img src="images1/t5.png" width="300" height="400" alt="img" class="img-fluid" />
+						<figcaption>
+							<h4>客家筝派</h4>
+							<p>罗九香</p>
+
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-6">
+					<figure class="effect-layla">
+						<img src="images1/t6.png" width="300" height="400" alt="img" class="img-fluid" />
+						<figcaption>
+							<h4>浙江筝派</h4>
+							<p>王巽之</p>
+
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-6">
+					<figure class="effect-layla">
+						<img src="images1/t7.png" width="300" height="400" alt="img" class="img-fluid" />
+						<figcaption>
+							<h4>朝鲜筝派</h4>
+							<p>又称伽倻琴</p>
+
+						</figcaption>
+					</figure>
+				</div>
+                <div class="col-lg-3 col-6">
+                    <figure class="effect-layla">
+                        <img src="images1/t8.png" width="300" height="400"  alt="img"  class="img-fluid" />
+                        <figcaption>
+                            <h4>日本筝派</h4>
+                            <p>又称13弦古筝</p>
+							
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+			
+        </div>
+    </div>
+    <!-- //services -->
+	<!-- testimonials -->
+	<div class="testimonials py-lg-5">
+		<div class="container py-5">
+			 <div class="title-section pb-sm-5 pb-3">
+               <h3 class="heading-agileinfo text-center text-white pb-4"> 我喜爱的 <span>古筝演奏家</span></h3>
+            </div>
+			<div class="mis-stage">
+				<!-- The element to select and apply miSlider to - the class is optional -->
+				<ol class="mis-slider">
+					<!-- The slider element - the class is optional -->
+					<li class="mis-slide">
+						<!-- A slide element - the class is optional -->
+						<a href="#" class="mis-container">
+							<!-- A slide container - this element is optional, if absent the plugin adds it automatically -->
+							<figure>
+								<!-- Slide content - whatever you want -->
+								<img src="images1/w1.png" alt=" " class="img-fluid" />
+								<figcaption>王中山
+									
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li class="mis-slide">
+						<a href="#" class="mis-container">
+							<figure>
+								<img src="images1/w2.jpg" alt="" class="img-fluid" />
+									<figcaption>袁莎
+									
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li class="mis-slide">
+						<a href="link" class="mis-container">
+							<figure>
+								<img src="images1/w3.jpg" alt=" " class="img-fluid" />
+								<figcaption>刘乐
+									
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li class="mis-slide">
+						<a href="#" class="mis-container">
+							<figure>
+								<img src="images1/w4.jpg" alt=" " class="img-fluid" />
+								<figcaption>吉炜
+
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li class="mis-slide">
+						<a href="#" class="mis-container">
+							<figure>
+								<img src="images1/w5.jpg" alt=" " class="img-fluid" />
+								<figcaption>任洲洋
+									
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<li class="mis-slide">
+						<a href="#" class="mis-container">
+							<figure>
+								<img src="images1/w6.png" alt=" " class="img-fluid" />
+								<figcaption>王瑶
+									
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<!-- //testimonials -->
+
+	<section class="about-w3ls py-5">
+		<div class="container pt-xl-5 pb-lg-3">
+			<div class="row">
+				<div class="col-lg-5 section-5">
+					<div class="agil_mor">
+						<h3 class="heading-agileinfo"><span> 我的古筝故事</span></h3>
+						<p class="text-center"> <p>-------------------------------------------<p>记得小学二年级的那天妈妈带我到琴行<p>我一眼便看中了你<p> 指尖触碰琴弦发出动人的音色<p>那感觉妙不可言<p> 犹记每个练琴、考级、上课的日子<p>
+						不知不觉与你相识已有十余年<p>古筝，就像我的挚友 <p> 陪伴我一起长大<p>-------------------------------------------</p>
+						 
+						 
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<video src="youhuiyi.mp4" width="500" height="400" controls>
+					</video>
+
+			</div>
+		</div>
+	</section>
+
+<!-- video and events -->
+	<div class="video-choose-agile py-lg-5">
+		<div class="container py-5">
+			<div class="title-section pb-sm-5 pb-3">
+				<h3 class="heading-agileinfo text-center pb-4"><span>永远热爱生活的女孩</span></h3>
+			</div>
+			<div class="row">
+				<div class="col-lg-5 events">
+
+					<div class="agil_mor">
+						<h2 class="heading-agileinfo">About<span> YOU HUIYI</span></h2>
+						<hr>
+						<a class="vam">姓名：游惠怡
+							<hr>学校：华东交通大学经济统计学2018-2
+							<hr>邮箱：1066432535@qq.com
+							<hr>GitHub: youhuiyi.github.io
+							<hr>:)
+							</a>
+					</div>
+				</div>
+				<div class="col-lg-7 video">
+					<img src="images1/p00.jpg" width="400" height="400" alt="" class="img-section4 img-fluid" >
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //video and events -->
+	<!---->
+	<div class="copyright py-3">
+		<div class="container">
+			<div class="copyrighttop">想了解更多，那就联系我吧 :)
+			</div>
+			<div class="clearfix">自由之思想,独立之灵魂。</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Vagabond</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		 <div class="agileits-w3layouts-info">
+			<img src="images/g6.jpg" class="img-fluid" alt="" />
+			<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
+		</div>
+	</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="two">
-    <p align="center"><a href="sy2-1.html">sy2-1</a></p>
-    <p align="center"><a href="sy2-2.html">sy2-2</a></p>
-</div>
-<div class="three">
-    <p align="center"><a href="sy3-1.html">sy3-1</a></p>
-    <p align="center"><a href="sy3-2.html">sy3-2</a></p>
-</div>
- <div class="Four">
-    <p align="center"><a href="sy4-1.html">sy4-1</a></p>
-    <p align="center"><a href="sy4-2.html">sy4-2</a></p>
-</div>
+<!-- //Modal -->
+
+<!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+<!-- //js -->
+<!-- testimonial-plugin -->
+	<script src="js/mislider.js"></script>
+	<script>
+		jQuery(function ($) {
+			var slider = $('.mis-stage').miSlider({
+				//  The height of the stage in px. Options: false or positive integer. false = height is calculated using maximum slide heights. Default: false
+				stageHeight: 320,
+				//  Number of slides visible at one time. Options: false or positive integer. false = Fit as many as possible.  Default: 1
+				slidesOnStage: false,
+				//  The location of the current slide on the stage. Options: 'left', 'right', 'center'. Defualt: 'left'
+				slidePosition: 'center',
+				//  The slide to start on. Options: 'beg', 'mid', 'end' or slide number starting at 1 - '1','2','3', etc. Defualt: 'beg'
+				slideStart: 'mid',
+				//  The relative percentage scaling factor of the current slide - other slides are scaled down. Options: positive number 100 or higher. 100 = No scaling. Defualt: 100
+				slideScaling: 150,
+				//  The vertical offset of the slide center as a percentage of slide height. Options:  positive or negative number. Neg value = up. Pos value = down. 0 = No offset. Default: 0
+				offsetV: -5,
+				//  Center slide contents vertically - Boolean. Default: false
+				centerV: true,
+				//  Opacity of the prev and next button navigation when not transitioning. Options: Number between 0 and 1. 0 (transparent) - 1 (opaque). Default: .5
+				navButtonsOpacity: 1,
+			});
+		});
+	</script>
+	<!-- //testimonial-plugin -->
+	<script src="js/counter.js"></script>
+    <!-- //stats -->
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
+
