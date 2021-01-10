@@ -1,5 +1,6 @@
 # youhuiyi.github.io
 my first HTML
+<html>
 <style>
     body{font-family:"MV Boli";background-image:url(paper.jpg);color:#393733}
     div.one{position: relative;right:100px}
