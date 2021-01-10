@@ -3,10 +3,7 @@
 <html>
 <style>
     body{font-family:"MV Boli";background-image:url(paper.jpg);color:#393733}
-    div.one{position: relative;right:100px}
-    div.two{position: relative;right:200px;bottom:200px}
-    div.three{position: relative;left:200cm;bottom:300px}
-    div.four{position: relative;left:100cm;bottom:400px}
+    
 </style>
 <body>
 <h1 align="center">You Huiyi's homepage</h1>
