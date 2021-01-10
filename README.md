@@ -121,8 +121,7 @@
 						<p> 第九首《香山射鼓》运用了唐代的音乐曲调，充分体现秦地音乐特色
 						<p> 第十首《战台风》王昌元有感于上海码头工人与台风顽强搏斗的精神而创作的。
 						</p>
-					</div>
-				</div>
+					
 				<div class="col-lg-7">
 					<video src="wangzhongshan.mp4" width="500" height="400" controls>
                     </video>    
