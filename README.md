@@ -35,7 +35,7 @@
     <p align="center"><a href="sy7-5.html">sy7-5</a></p>
     <p align="center"><a href="sy7-6.html">sy7-6</a></p>
     <p align="center"><a href="sy7-7.html">sy7-7</a></p>    
-</div>indexl
+</div>
 <div class="eight">
     <p align="center"><a href="index.html">index</a></p>
 </div>
